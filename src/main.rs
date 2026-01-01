@@ -2,6 +2,8 @@ use std::env;
 
 use crate::run::{Kind, run};
 
+pub mod bevy_based;
+
 fn main() {
     let arg = env::args().nth(1);
     match arg.as_deref() {
