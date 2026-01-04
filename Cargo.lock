@@ -1322,6 +1322,7 @@ dependencies = [
  "chrono",
  "crossterm 0.29.0",
  "rand",
+ "ratatui",
 ]
 
 [[package]]
